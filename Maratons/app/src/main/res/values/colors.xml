@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовые цвета приложения -->
+    <color name="colorPrimary">#97633B</color>
+    <color name="colorPrimaryDark">#85522A</color>
+    <color name="colorAccent">#F0CE9D</color>
+
+    <!-- Светлая тема (по умолчанию) -->
+    <color name="backgroundColor">#97633B</color>    <!-- Коричневый фон -->
+    <color name="textColor">#F0CE9D</color>          <!-- Светлый текст -->
+    <color name="buttonBackground">#3C2116</color>   <!-- Темный фон кнопки -->
+    <color name="buttonText">#F0CE9D</color>         <!-- Светлый текст кнопки -->
+    <color name="cardBackground">#3C2116</color>     <!-- Темный фон карточки -->
+    <color name="cardtextColor">#F0CE9D</color>
+    <color name="messageBackground">#3C2116</color>  <!-- Темный фон сообщений -->
+</resources>

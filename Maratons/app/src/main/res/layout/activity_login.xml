@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/backgroundColor">
+
+    <ImageView
+        android:id="@+id/atpakal3"
+        android:layout_width="59dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@null"
+        android:rotation="-360"
+        android:rotationX="-360"
+        android:rotationY="-360"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/line_selector" />
+
+    <ImageView
+        android:id="@+id/lampLight"
+        android:layout_width="66dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/lamplight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lamp_selector"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/autorizacija"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/kurale"
+        android:text="@string/autorizacija"
+        android:textColor="@color/textColor"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lampLight" />
+
+    <EditText
+        android:id="@+id/pasts"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/textColor"
+        android:ems="10"
+        android:fontFamily="@font/kurale"
+        android:hint="@string/e_pasts"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/textColor"
+        android:textColor="@color/textColor"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autorizacija"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/parole"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/textColor"
+        android:ems="10"
+        android:fontFamily="@font/kurale"
+        android:hint="@string/parole"
+        android:inputType="textPassword"
+        android:textColorHint="@color/textColor"
+        android:textColor="@color/textColor"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pasts"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/autorizeties"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/buttonBackground"
+        android:fontFamily="@font/kurale"
+        android:text="@string/autorizeties"
+        android:textColor="@color/buttonText"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parole" />
+
+    <Button
+        android:id="@+id/velNavReg"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:background="@android:color/transparent"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/kurale"
+        android:includeFontPadding="false"
+        android:text="@string/vel_nav_registrets"
+        android:textColor="@color/textColor"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autorizeties" />
+</androidx.constraintlayout.widget.ConstraintLayout>

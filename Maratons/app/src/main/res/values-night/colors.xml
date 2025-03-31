@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Темная тема -->
+    <color name="backgroundColor">#3C2116</color>    <!-- Темный фон -->
+    <color name="textColor">#F0CE9D</color>          <!-- Светлый текст -->
+    <color name="buttonBackground">#F0CE9D</color>   <!-- Светлый фон кнопки -->
+    <color name="buttonText">#3C2116</color>         <!-- Темный текст кнопки -->
+    <color name="cardBackground">#F0CE9D</color>     <!-- Светлый фон карточки -->
+    <color name="cardtextColor">#3C2116</color>
+    <color name="messageBackground">#3C2116</color>  <!-- Фон сообщений -->
+</resources>

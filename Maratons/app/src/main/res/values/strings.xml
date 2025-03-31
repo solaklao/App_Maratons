@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Maratons</string>
+    <string name="lamplight">lampLight</string>
+    <string name="registracija">REĢISTRĀCIJA</string>
+    <string name="e_pasts">E-pasts</string>
+    <string name="parole">Parole</string>
+    <string name="lietotajvards">Lietotajvārds</string>
+    <string name="reeistraties">Reģistrēties</string>
+    <string name="autorizacija">AUTORIZĀCIJA</string>
+    <string name="autorizeties">AUTORIZĒTIES</string>
+    <string name="lampdark">lampDark</string>
+    <string name="vel_nav_registrets">Vēl nav reģistrēts?</string>
+    <string name="rakstnieku_maratons">Rakstnieku Maratons</string>
+    <string name="rakstnieku_maratons2">Rakstnieku Maratons</string>
+    <string name="title4">RAKSTNIEKU MARATONS</string>
+    <string name="jaunscats">Jauns Čats</string>
+    <string name="rakstiseit">Raksti Šeit</string>
+    <string name="placeholder_message">placeholder message</string>
+    <string name="placeholder_message2">placeholder_message2</string>
+    <string name="history_title">Čata Vēsture</string>
+</resources>

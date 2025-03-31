@@ -1,0 +1,11 @@
+<resources>
+    <!-- Темная тема -->
+    <style name="Theme.Maratons" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/backgroundColor</item> <!-- Используем цвет фона -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:statusBarColor">@color/backgroundColor</item> <!-- Используем темный фон -->
+    </style>
+</resources>

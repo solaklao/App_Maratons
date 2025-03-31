@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDialogTheme" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@drawable/dialog_rounded_background_dark</item>
+        <item name="android:windowBackground">@drawable/dialog_rounded_background_dark</item>
+        <item name="colorAccent">@color/textColor</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorAlertDialogListItem">@color/textColor</item>
+        <item name="android:fontFamily">@font/kurale</item>
+        <item name="buttonBarButtonStyle">@style/DialogButtonStyle</item>
+    </style>
+
+    <style name="DialogButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">@font/kurale</item>
+    </style>
+</resources>
