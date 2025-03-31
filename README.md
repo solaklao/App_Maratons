@@ -84,6 +84,7 @@ Android Studio:
 
 ____________________________________________________Architecture Diagram
 
+```
 +-------------------+       +-------------------+
 |                   |       |                   |
 |  Android App      |<----->|  Firebase Auth    |
@@ -107,7 +108,7 @@ ____________________________________________________Architecture Diagram
                             |  OpenAI API       |
                             |                   |
                             +-------------------+
-
+```
 ____________________________________________________Screenshots
 
 <img src="screenshots/MainLight.png" width="300" alt="Main Screen (Light)"> <img src="screenshots/MainDark.png" width="300" alt="Main Screen (Dark)">
