@@ -19,20 +19,20 @@ Android application for writers with AI assistant:
 
 ____________________________________________________Technologies Used
 
-OpenAI API
-Flask
-ngrok
-Android Studio
-Firebase Authentication
-SQLite
+- OpenAI API
+- Flask
+- ngrok
+- Android Studio
+- Firebase Authentication
+- SQLite
 
 ____________________________________________________Libraries Used
 
-Flask: Web API creation
-OpenAI: Working with AI models
-Requests: HTTP requests
-Logging: Event logging
-JSON: Working with JSON data
+- Flask: Web API creation
+- OpenAI: Working with AI models
+- Requests: HTTP requests
+- Logging: Event logging
+- JSON: Working with JSON data
 
 ____________________________________________________Installation
 
